@@ -3,6 +3,7 @@ import { assets } from "../assets/assets";
 import Address from "../shared/Forms/Address";
 import Modal from '../shared/Modal/Modal'
 import LeasingInfo from "../shared/Forms/LeasingInfo";
+import Charges from "../shared/Forms/Charges";
 
 const CondominiumPage = () => {
   const [modalKey, setModalKey] = useState(null);
@@ -14,6 +15,8 @@ const CondominiumPage = () => {
         return <Address />;
       case "Leasing info":
         return <LeasingInfo />;
+      case "Charges":
+        return <Charges />;
       default:
         return null;
     }

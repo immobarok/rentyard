@@ -9,6 +9,7 @@ import upload from './upload-02.png'
 import bdFlag from './flag.png'
 import downArrow from './arrow-down-01.png'
 import crossIcon from './cross.png'
+import infromationCircle from './information-circle.png'
 
 
 export const assets = {
@@ -22,5 +23,6 @@ export const assets = {
   upload,
   downArrow,
   bdFlag,
-  crossIcon
+  crossIcon,
+  infromationCircle
 }
